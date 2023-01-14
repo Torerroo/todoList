@@ -1,0 +1,29 @@
+.list-group-item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list-group-item div {
+  display: flex;
+}
+.list-group-item span {
+  display: flex;
+}
+.list-group-itembtn {
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 4px;
+}
+.list-group-itembtn {
+  background-color: blue;
+}
+.list-group-itembtn2 {
+  background-color: green;
+}
+.list-group-itembtn:last-child {
+  background-color: red;
+}
+.list-group-itemdone {
+  text-decoration: line-through;
+}
